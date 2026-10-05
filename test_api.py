@@ -32,4 +32,4 @@ class Test_Open_Weather_Map:
         print(f"Country is: {weather_data['sys']['country']}")
         print(f"Humidity is: {weather_data['main']['humidity']}")
         print(f"Temperature is: {weather_data['main']['temp']}")
-        assert weather_data["sys"]["country"]=="Yuval"
+        assert weather_data["sys"]["country"]=="IL"
